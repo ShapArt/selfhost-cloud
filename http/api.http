@@ -1,0 +1,12 @@
+### Presigned demo (adjust URL/headers)
+GET http://localhost:8000/health
+
+### Request presigned (example)
+POST http://localhost:8000/api/presign
+Content-Type: application/json
+
+{
+  "bucket": "user-uploads",
+  "filename": "test.png",
+  "ttl": 600
+}
