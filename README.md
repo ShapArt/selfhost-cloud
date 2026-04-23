@@ -2,10 +2,9 @@
 
 ![Social Preview](https://raw.githubusercontent.com/ShapArt/selfhost-cloud/main/.github/social-preview.png)
 
-
-[![Stars](https://img.shields.io/github/stars/ShapArt/=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/blob/main/LICENSE)
+[![Stars](https://img.shields.io/github/stars/ShapArt/selfhost-cloud?style=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/stargazers)
+[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/selfhost-cloud?style=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/commits/main)
+[![License](https://img.shields.io/github/license/ShapArt/selfhost-cloud?style=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/blob/main/LICENSE)
 
 ## EN
 MinIO + FastAPI gateway with presigned URL flow for self-hosted storage.
@@ -40,6 +39,9 @@ See .github/CONTRIBUTING.md and open a focused PR.
 
 ## License / Лицензия
 See LICENSE.
+
+
+
 
 
 
