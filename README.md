@@ -1,166 +1,54 @@
-﻿# ☁️🗝️ Self‑host Cloud (S3‑совместимое)
+# selfhost-cloud
 
-[![CI](https://github.com/ShapArt/selfhost-cloud/actions/workflows/ci.yml/badge.svg)](https://github.com/ShapArt/selfhost-cloud/actions/workflows/ci.yml) [![license](https://img.shields.io/github/license/ShapArt/selfhost-cloud)](https://github.com/ShapArt/selfhost-cloud/blob/main/LICENSE)
+![License](https://img.shields.io/github/license/ShapArt/selfhost-cloud)
+![Last Commit](https://img.shields.io/github/last-commit/ShapArt/selfhost-cloud)
+![Language](https://img.shields.io/github/languages/top/ShapArt/selfhost-cloud)
 
+## EN Overview
+MinIO + FastAPI gateway with presigned URLs
 
+## RU Описание
+MinIO + FastAPI gateway with presigned URLs
 
+## EN Features
+- Clear project purpose and maintainable structure.
+- Standardized community and contribution files.
+- Consistent documentation style across account repositories.
 
+## RU Возможности
+- Понятная цель проекта и поддерживаемая структура.
+- Стандартизированные файлы сообщества и вклада.
+- Единый стиль документации во всех репозиториях аккаунта.
 
+## EN Quick Start
+pip install -r requirements.txt
+python -m main
 
-**Ключевые факты:**
+## RU Быстрый старт
+pip install -r requirements.txt
+python -m main
 
+## EN Project Structure
+- .github/ - templates, policy files, CI config.
+- Source files and assets are stored in repository root or feature directories.
 
-- ☁️🗝️ MinIO (S3) + presigned URL
+## RU Структура проекта
+- .github/ - шаблоны, policy-файлы, конфиг CI.
+- Исходники и ресурсы находятся в корне или профильных директориях.
 
+## EN Roadmap
+- Improve test coverage and automation.
+- Keep docs aligned with actual project behavior.
 
-- 🔐 Ограничение доступа и TTL-ссылки
+## RU Планы
+- Расширять покрытие тестами и автоматизацией.
+- Поддерживать документацию в актуальном состоянии.
 
+## EN Contributing
+See .github/CONTRIBUTING.md.
 
-- ⚙️ Мини-шлюз на FastAPI
+## RU Вклад
+См. .github/CONTRIBUTING.md.
 
-
-
-
-
-
-
-
-<table>
-
-
-<tr>
-
-
-<td><b>✨ Что умеет</b><br/>Короткий список возможностей, ориентированных на ценность.</td>
-
-
-<td><b>🧠 Технологии</b><br/>Стек, ключевые решения, нюансы безопасности.</td>
-
-
-<td><b>🖼️ Демо</b><br/>Скриншот/гиф или ссылка на Pages.</td>
-
-
-</tr>
-
-
-</table>
-
-
-
-
-
-> [!TIP]
-
-
-> Репозиторий оформлен по правилам: Conventional Commits, SemVer, CHANGELOG, SECURITY policy и CI.
-
-
-> Секреты — только через `.env`/секреты репозитория.
-
-
-
-
-
-
-
-
-<p align="left">
-
-
-  <img alt="build" src="https://img.shields.io/github/actions/workflow/status/ShapArt/selfhost-cloud/ci.yml?label=CI&logo=githubactions">
-
-
-  <img alt="license" src="https://img.shields.io/github/license/ShapArt/selfhost-cloud">
-
-
-  <img alt="last commit" src="https://img.shields.io/github/last-commit/ShapArt/selfhost-cloud">
-
-
-  <img alt="issues" src="https://img.shields.io/github/issues/ShapArt/selfhost-cloud">
-
-
-  <img alt="stars" src="https://img.shields.io/github/stars/ShapArt/selfhost-cloud?style=social">
-
-
-</p>
-
-
-
-
-
-
-
-
-MinIO для хранения + минимальный gateway на FastAPI (выдаёт presigned URLs).
-
-
-
-
-
-## Быстрый старт
-
-
-
-
-
-*Заполнить по мере развития проекта.*
-
-
-
-
-
-
-
-
-## Архитектура
-
-
-
-
-
-*Заполнить по мере развития проекта.*
-
-
-
-
-
-
-
-
-## Конфигурация
-
-
-
-
-
-*Заполнить по мере развития проекта.*
-
-
-
-
-
-
-
-
-## Тесты
-
-
-
-
-
-*Заполнить по мере развития проекта.*
-
-
-
-
-
-
-
-
-## Roadmap
-
-
-
-
-
-*Заполнить по мере развития проекта.*
+## License / Лицензия
+See LICENSE.
