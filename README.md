@@ -1,29 +1,54 @@
 # selfhost-cloud
 
-![Social Preview](https://raw.githubusercontent.com/ShapArt/selfhost-cloud/main/.github/social-preview.png)
+Personal self-hosting and cloud-adjacent workspace for thinking through controlled infrastructure, local services, and operator-owned deployments.
 
-[![Stars](https://img.shields.io/github/stars/ShapArt/selfhost-cloud?style=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/stargazers)
-[![Last Commit](https://img.shields.io/github/last-commit/ShapArt/selfhost-cloud?style=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/commits/main)
-[![License](https://img.shields.io/github/license/ShapArt/selfhost-cloud?style=for-the-badge)](https://github.com/ShapArt/selfhost-cloud/blob/main/LICENSE)
+## What this repository is
+
+`selfhost-cloud` is best positioned as an infrastructure-oriented experiment rather than a finished commercial cloud product.
+
+The useful idea behind the repository is ownership: running useful services under your own control, understanding the deployment surface, and keeping the operational model visible instead of hiding everything behind a managed platform.
+
+## Why it matters
+
+Self-hosting is a good engineering exercise because it forces attention to details that application-only projects often skip:
+
+- service boundaries;
+- configuration;
+- persistence;
+- networking;
+- backups;
+- access control;
+- recovery and maintenance.
+
+Even a small self-hosted setup can show practical infrastructure thinking when it is documented clearly.
+
+## Good use cases
+
+- personal cloud experiments;
+- homelab planning;
+- controlled deployment notes;
+- service composition experiments;
+- learning how applications behave outside a local dev shell.
+
+## Portfolio positioning
+
+This is a supporting repository.
+
+It should not be oversold as a production cloud platform unless the repo contains full deployment manifests, runbooks, monitoring, backups, and hardening notes. Its value is stronger when presented honestly: infrastructure practice, self-hosting discipline, and service ownership.
+
+## What would make this repo stronger
+
+- a simple architecture diagram;
+- list of services included;
+- deployment steps;
+- backup and recovery notes;
+- security boundary notes;
+- screenshots of the dashboard or service map if applicable.
 
 ## RU
-Self-hosted cloud gateway, спроектированный в логике Product Engineer: безопасность, контроль и удобство внедрения.
 
-### Baseline
-- Product Engineer: backend и automation-системы, которые дают измеримый бизнес-результат.
-- Приоритет: ценность для клиента, скорость внедрения, надёжность эксплуатации.
-
-## EN
-Self-hosted cloud gateway engineered with Product Engineer mindset: security, control, and practical adoption.
-
-### Baseline
-- Product Engineer building backend and automation systems with measurable product impact.
-- Priority: client value, delivery speed, and operational reliability.
-
-## Contribution
-See .github/CONTRIBUTING.md.
+Репозиторий про self-hosting и личную инфраструктуру. Его лучше подавать как аккуратную infra-практику: контроль над сервисами, понимание деплоя, конфигурации, сети, хранения и обслуживания.
 
 ## License
-See LICENSE.
 
-
+See `LICENSE`.
